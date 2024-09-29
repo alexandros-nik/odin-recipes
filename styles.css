@@ -1,0 +1,40 @@
+
+.header{
+    text-align: center;
+}
+
+.gif-container{
+    display:flex; 
+	justify-content:center; 
+	align-items:center; 
+}
+
+.tenor-gif-embed{
+    border: 5px solid #E8372D; /* Black border */
+            border-radius: 10px;    /* Rounded corners */
+            padding: 5px;          /* Space between the border and the GIF */
+            background-color: #E8372D; /* Background color inside the border */
+}
+
+body{
+    background-image: url(./images/italy-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+    
+    text-align: center;
+    list-style: inside;
+    display: flex;
+    justify-content: center;    
+    align-items: center;        
+    margin-top: 20px;          
+    width: 100%;                /* Make sure it takes full width */
+    max-width: 800px;          /* Set a max-width to align with header */
+    margin-left: auto;          /* Center horizontally */
+    margin-right: auto;         /* Center horizontally */
+  }
+
