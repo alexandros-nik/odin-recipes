@@ -1,19 +1,22 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .header{
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .gif-container{
-    display:flex; 
-	justify-content:center; 
-	align-items:center; 
+    display: block;  
+    margin-bottom: 80px;
+    text-align: center;
+    
 }
 
 .tenor-gif-embed{
-    border: 5px solid #E8372D; /* Black border */
+    border: 5px solid #0c0909; /* Black border */
             border-radius: 10px;    /* Rounded corners */
             padding: 5px;          /* Space between the border and the GIF */
-            background-color: #E8372D; /* Background color inside the border */
+            background-color: #0c0909; /* Background color inside the border */
+    display: inline-block;
 }
 
 body{
@@ -24,17 +27,28 @@ body{
     background-attachment: fixed;
 }
 
-ul {
+.recipes {
     
     text-align: center;
-    list-style: inside;
-    display: flex;
-    justify-content: center;    
-    align-items: center;        
-    margin-top: 20px;          
-    width: 100%;                /* Make sure it takes full width */
-    max-width: 800px;          /* Set a max-width to align with header */
-    margin-left: auto;          /* Center horizontally */
-    margin-right: auto;         /* Center horizontally */
+    display: inline; */
+    
+    
   }
 
+  .recipes ul {
+    list-style: none; 
+    padding: 0; /* Remove padding from the list */
+}
+
+.recipes li {
+    display: block; /* Each link is treated as a block, so they stack vertically */
+    margin-bottom: 30px; /* Space between each link */
+}
+
+.recipes a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Customize link color */
+    font-size:40px; /* Adjust the font size as desired */
+    font-family: 'Dancing Script';
+    font-style: italic;
+}
